@@ -1,0 +1,101 @@
+
+.reviews{
+    position: relative;
+    width: 100%;
+    height: rem(670px);
+    background-color: #0f2f6e;
+}
+
+.reviews__content{
+    position: absolute;
+    top: rem(65px); 
+}
+
+.reviews__block{
+    //margin-top: rem(60px);
+    
+    width: rem(950px);
+    //height: rem(330px);
+    
+    //position: relative;
+    display: inline-block;
+    
+}
+
+.reviews__block-content{
+    position: absolute;
+    top: 60%;
+    left: rem(30px);
+    transform: translateY(-50%);
+    padding: rem(60px) rem(50px);
+    background-color: #0066cc;
+    display: flex;
+    
+}
+
+.reviews__diplom{
+    width: rem(148px);
+    height: rem(214px);
+}
+.reviews__right-content{
+    margin-left: rem(20px);
+}
+
+.reviews__right-title{
+    font-family: 'politica';
+    font-size: rem(40px);
+    color: #fff;
+}
+
+.reviews__right-text{
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    margin-top: rem(60px);
+    margin-left: rem(35px);
+    overflow: auto;
+    width: 685px;
+    height: 110px;
+}
+
+.reviews__line{
+    width: rem(70px);
+    height: rem(7px);
+    background-color: #fff;
+    margin-bottom: rem(30px);
+    text-align: center;
+}
+
+.reviews-navigate{
+    margin-left: rem(115px);
+    display: inline-block;
+}
+
+.reviews-navigate__list{
+    margin-top: rem(33px);
+    margin-bottom: rem(33px);
+}
+
+.reviews-navigate__elem{
+    margin-top: rem(40px);
+
+    &:nth-child(1){
+        margin-top: 0;
+    }
+}
+
+.reviews-navigate__link{
+    display: block;
+    width: rem(18px);
+    height: rem(18px);
+    border-radius: 50%;
+    background-color: #fff;
+    
+}
+
+.reviews-navigate__line{
+    height: rem(70px);
+    width: rem(3px);
+    background-color: #fff;
+    margin-left: rem(6px);
+}

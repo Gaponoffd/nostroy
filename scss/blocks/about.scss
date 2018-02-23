@@ -1,0 +1,116 @@
+
+.about{
+    width: 100%;
+    background-color: #0f2f6e;
+    height: rem(1270px);
+    position: relative;
+}
+
+.about__content{
+    position: absolute;
+    top: rem(150px);
+    width: rem(1140px);
+    margin: 0 auto;
+}
+
+.title_about{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about__list{
+    margin-top: rem(90px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about__elem{
+    width: rem(316px);
+    height: rem(316px);
+    border-radius: 50%;
+    background-color: #0f2f6e;
+    box-shadow: 0px 31px 70px 0px rgba(3, 29, 80, 0.59);
+    margin-bottom: rem(70px);
+    position: relative;
+
+    &:nth-child(4){
+        margin-left: rem(210px); 
+    };
+
+    &:nth-child(5){
+        margin-right: rem(210px);  
+    };
+}
+
+.about__elem-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about__elem-text{
+    font-size: 26px;
+    color: rgb(102, 204, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: rem(10px);
+}
+
+.about__block{
+    width: rem(640px);
+    height: rem(320px);
+    background-color: #fff;
+    position: absolute;
+    bottom: rem(-160px);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 20px 20px rgba(255, 255, 255, 0.59);
+    z-index: 40;
+}
+
+.about__block-content{
+    padding: rem(55px);
+    font-size: rem(20px);
+    color: #000033;
+    
+    p{
+        font-size: rem(24px);
+        text-align: center;
+        margin-top: rem(55px);
+    }
+}
+
+.about-triange{
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-bottom: rem(44px) solid #fff;
+    border-left: rem(44px) solid transparent;
+    border-right: rem(44px) solid transparent;
+    position: absolute;
+    top: rem(-44px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-triange-shadow{
+    width: 0;
+    height: 0;
+    border-top: rem(44px) solid rgba(255, 255, 255, 0.59);
+    border-bottom: 0 solid transparent;
+    border-left: rem(44px) solid transparent;
+    border-right: rem(44px) solid transparent;
+    position: absolute;
+    bottom: rem(-64px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+  
+
+
+  

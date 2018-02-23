@@ -1,0 +1,109 @@
+
+.registr{
+    position: relative;
+    width: 100%;
+    height: rem(707px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.registr__triangle{
+    width: 0;
+    height: 0;
+    border-top: rem(55px) solid #fff;
+    border-bottom: 0 solid transparent;
+    border-left: rem(55px) solid transparent;
+    border-right: rem(55px) solid transparent;
+    position: absolute;
+    top: 0;
+    left: rem(112px);
+}
+
+.registr__content{
+    position: absolute;
+    top: rem(125px);
+}
+
+.registr__text{
+    width: rem(460px);
+    margin-top: rem(95px);
+    font-size: rem(30px);
+    color: #fff;
+    line-height: 1.2;
+}
+
+.regist__link{
+    display: inline-block;
+    margin-top: rem(85px);
+    padding: rem(20px) rem(50px);
+    background-color: #f40000;
+    font-size: rem(24px);
+    color: #fff;
+    border-radius: rem(5px);
+}
+
+.regist-block{
+    position: absolute;
+    bottom: -90px;
+    z-index: 30;
+}
+
+.regist-block__elem{
+    display: inline-block;
+    width: rem(375px);
+    height: rem(180px);
+    position: relative;
+
+    &_white{
+        background-color: #f4f4f4;
+    }
+
+    &_blue{
+        background-color: #0066cc
+    }
+
+    &_red{
+        background-color: #ff0000
+    }
+}
+
+.regist-block__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.regist-block__text{
+    margin-top: rem(23px);
+    font-size: rem(23px);
+    font-weight: 700;
+    color: #000033;
+
+    &_white{
+        color: #fff;
+    }
+}
+
+.regist-block__triangle{
+    width: 0;
+    height: 0;
+    border-top: 30px solid #f4f4f4;
+    border-bottom: 0 solid transparent;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    bottom: rem(-30px);
+    left: 50%;
+    transform: translateX(-50%);
+
+    &_blue{
+        border-top: 30px solid #0066cc
+    }
+
+    &_red{
+        border-top: 30px solid #ff0000
+    }
+}

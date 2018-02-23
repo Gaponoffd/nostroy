@@ -1,0 +1,45 @@
+
+.incorporation{
+    width: 100%;
+    height: rem(575px);
+    background-color: #081e4b;
+    position: relative;
+}
+
+.incorporation__triangle{
+    width: 0;
+    height: 0;
+    border-top: rem(60px) solid #0f2f6e;
+    border-bottom: 0 solid transparent;
+    border-left: rem(60px) solid transparent;
+    border-right: rem(60px) solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.incorporation__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title_incorporation{
+    width: rem(945px);
+}
+
+.incorporation__text{
+    font-weight: 700;
+    font-size: rem(26px);
+    color: #fff;
+    width: rem(680px);
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+.order__btn_margin{
+    margin-top: rem(65px);
+}

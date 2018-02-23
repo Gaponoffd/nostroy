@@ -1,0 +1,146 @@
+
+.call{
+    position: relative;
+}
+
+.call__triangle{
+    width: 0;
+    height: 0;
+    border-top: rem(40px) solid #081e4b;
+    border-bottom: 0 solid transparent;
+    border-left: rem(40px) solid transparent;
+    border-right: rem(40px) solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.call__block-top{
+    width: 100%;
+    height: rem(435px);
+    background-color: #f2f2f2;
+}
+
+.call-form-img{
+    position: absolute;
+    top: rem(501px);
+    left: rem(58px);
+    transform: translateY(-50%);
+    z-index: 69;
+}
+
+.title_call{
+    color: #0066cc;
+    margin-bottom: rem(20px);
+}
+
+.call__form-title{
+    font-weight: 700;
+    font-size: rem(26px);
+    color: #000;
+    margin-bottom: rem(30px);
+}
+
+.call__form-wrap{
+    position: absolute;
+    top:44%;
+    transform: translateY(-50%);
+    margin-left: rem(100px);
+    z-index: 70;
+}
+
+.call__form{
+    background-color: #0066cc;
+    padding: rem(50px) rem(80px);
+    width: rem(530px);
+}
+
+.order__input_call{
+    width: 100%;
+    margin-top: rem(30px);
+}
+
+.call__textarea{
+    width: 100%;
+    height: rem(130px);
+    resize: none;
+    padding: rem(25px) rem(20px);
+    font-size: rem(20px);
+}
+
+.order__btn_call{
+    width: 100%;
+    margin-top: rem(30px);
+}
+
+
+.call__block-bottom{
+    width: 100%;
+    height: rem(435px);
+    background-color: #0f2f6e; 
+    position: relative;
+}
+
+.call-footer{
+    position: absolute;
+    bottom: rem(0px);
+    width: rem(800px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: rem(100px);
+}
+
+.call__contact{
+    font-family: 'politica';
+    font-size: rem(62px);
+    color: #fff;
+    line-height: 1.2;
+}
+
+.call__address{
+    //font-weight: 700;
+    font-size: rem(26px);
+    color: #fff;
+    line-height: 1.2;
+    display: inline-block;
+
+    p{
+        margin: 0 0 rem(20px) 0;
+        
+    }
+}
+
+.call__line{
+    content: "";
+    width: rem(3px);
+    height: rem(70px);
+    background-color: #fff;
+    display: inline-block;
+}
+
+.nand-call__img{
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer{
+    width: 100%;
+    height: rem(62px);
+    background-color: #021d54;
+    margin-top: rem(-62px);
+    font-size: rem(18px);
+    color: #3366cc;
+    position: relative;
+
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+}

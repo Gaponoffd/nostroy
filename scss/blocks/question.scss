@@ -1,0 +1,98 @@
+
+.question{
+    width: 100%;
+    height: rem(1100px);
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.question__content{
+    position: absolute;
+    top: rem(95px);
+}
+
+.title_question{
+    color: #0066cc;
+} 
+
+.question__elem{
+    margin-top: rem(20px);
+    position: relative;
+}
+
+.question__link-text{
+    display: inline-block;
+    font-family: 'politica';
+    font-size: rem(36px);
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1.2;
+    vertical-align: middle;
+    border-bottom: 1px solid #cccccc;
+    width: rem(1073px);
+}
+
+.question__link-icon{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #0066cc;
+    border-right: 0 solid transparent;
+    vertical-align: middle;
+    position: relative;
+
+    &::after{
+        content: "+";
+        font-weight: 700;
+        color: #000;
+        position: absolute;
+        top: 50%;
+        left: rem(-28px);
+        transform: translateY(-50%);
+    }
+}
+
+.question__block-text{
+    height: 0;
+    overflow: hidden;
+    width: rem(935px);
+    background-color: #dcdcdc;
+    color: #000;
+    font-weight: 700;
+    font-size: rem(26px);
+    margin-left: rem(135px);
+    border-radius: rem(5px);
+    
+
+    p{
+        margin: 0;
+        padding: rem(60px);
+        
+    }
+}
+
+.guestion__triangle{
+    width: 0;
+    height: 0;
+    border-top: rem(60px) solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: rem(60px) solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: rem(155px);
+    left: rem(75px);
+    transform: translateY(-50%);
+    z-index: 50;
+}
+
+.question__elem_activ{
+    .question__block-text{
+        height: rem(160px);
+    }
+
+    .guestion__triangle{
+        border-top: rem(60px) solid #dcdcdc;
+    }
+}
