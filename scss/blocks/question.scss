@@ -36,9 +36,9 @@
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 35px solid transparent;
-    border-bottom: 35px solid transparent;
-    border-left: 35px solid #0066cc;
+    border-top: rem(35px) solid transparent;
+    border-bottom: rem(35px) solid transparent;
+    border-left: rem(35px) solid #0066cc;
     border-right: 0 solid transparent;
     vertical-align: middle;
     position: relative;
@@ -90,6 +90,22 @@
 .question__elem_activ{
     .question__block-text{
         height: rem(160px);
+    }
+
+    .question__link-icon{
+        position: relative;
+        border-top: rem(35px) solid #0066cc;
+        border-bottom: 0 solid transparent;
+        border-left: rem(35px) solid transparent;
+        border-right: rem(35px) solid transparent;
+       
+    
+        &::after{
+            content: "-";
+            position: absolute;
+            top: rem(-20px);
+            left: rem(-3px);
+        }
     }
 
     .guestion__triangle{
