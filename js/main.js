@@ -43,12 +43,6 @@ linkThree.addEventListener("click", function(e) {
   reviewsList.style.top= a - 660 +'px'
 })
 
-///Навигация
-
-$(document).ready(function() {
-	$('#fullpage').fullpage();
-});
-
 
 
 

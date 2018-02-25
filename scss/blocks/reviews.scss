@@ -21,9 +21,6 @@
 
 .reviews__list{
     position: absolute;
-    //width: rem(950px);
-    //height: rem(330px);
-    //overflow: hidden;
     display: inline-block;
     top:0;
     left: 0;
@@ -31,13 +28,10 @@
 }
 
 .reviews__block{
-    //margin-top: rem(60px);
-    
     width: rem(950px);
     height: rem(330px);
     background-color: #0066cc;
     position: relative;
-    
 }
 
 .reviews__block-content{
@@ -45,8 +39,6 @@
     top: 60%;
     left: rem(30px);
     transform: translateY(-50%);
-    //padding: rem(60px) rem(50px);
-    //background-color: #0066cc;
     display: flex;
     
 }
